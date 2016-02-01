@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9229B5EB1C5F052600836122 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 9229B5EA1C5F052600836122 /* RegexKitLite.m */; };
 		929329361C5B545C009DC34C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929329351C5B545C009DC34C /* main.m */; };
 		9293293E1C5B698B009DC34C /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9293293D1C5B698B009DC34C /* NSString+Regex.m */; };
 		929329401C5B740B009DC34C /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 9293293F1C5B740B009DC34C /* Foundation+Log.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9229B5E91C5F052600836122 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		9229B5EA1C5F052600836122 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		929329321C5B545C009DC34C /* GLRegex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GLRegex; sourceTree = BUILT_PRODUCTS_DIR; };
 		929329351C5B545C009DC34C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9293293C1C5B698B009DC34C /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
@@ -43,6 +46,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9229B5E81C5F052600836122 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				9229B5E91C5F052600836122 /* RegexKitLite.h */,
+				9229B5EA1C5F052600836122 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
 		929329291C5B545C009DC34C = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +74,7 @@
 		929329341C5B545C009DC34C /* GLRegex */ = {
 			isa = PBXGroup;
 			children = (
+				9229B5E81C5F052600836122 /* RegexKitLite */,
 				9293293F1C5B740B009DC34C /* Foundation+Log.m */,
 				929329351C5B545C009DC34C /* main.m */,
 				9293293C1C5B698B009DC34C /* NSString+Regex.h */,
@@ -128,6 +141,7 @@
 			files = (
 				929329361C5B545C009DC34C /* main.m in Sources */,
 				9293293E1C5B698B009DC34C /* NSString+Regex.m in Sources */,
+				9229B5EB1C5F052600836122 /* RegexKitLite.m in Sources */,
 				929329401C5B740B009DC34C /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +261,7 @@
 				9293293B1C5B545C009DC34C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
